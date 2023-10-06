@@ -1,0 +1,198 @@
+h1{
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7em;
+    line-height: 1.3;
+    text-align: center;
+    display: block;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.gap_element{
+    padding-top: 60px;
+    display: block;
+    height: auto;
+}
+
+#row_text{
+    width: 100%;
+    display: flexbox;
+    flex-flow: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 78.95px;
+    height: auto;
+}
+
+.green_text{
+    display: inline;
+    color: #08ada7;
+}
+
+.yellow_text{
+    display: inline;
+    color: #fffa67;
+}
+
+.white_text{
+    display: inline;
+    color: #FFFFFF;
+}
+
+.black_text{
+    display: inline;
+    color: #0a3643;
+}
+
+.khoitin{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.tinanh{
+    max-width: 627px;   
+    width: 100%;
+    height: 405.55px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    transform: translateX(-15%);
+    transition: 2s ease;
+}
+
+.tinanh.show{
+    transform: translateX(0);
+}
+
+.tinanh img{
+    width: 100%;
+    height: auto;
+    border: solid #FFFA67 5px;
+    box-shadow: 0px 9px 9px #8f6d6d36;
+}
+
+.tinchu{
+    flex-grow: 2;
+    flex-basis: 50%;
+    max-width: 600px; 
+    height: auto;
+    background-color: #0A3643;
+    z-index: -1000;
+    transform: translate(1%, 13%);
+    transition: 2s ease;
+    padding:80px 50px 60px 130px;
+}
+
+.tinchu.show{
+    transform: translate(-14%, 13%);
+}
+
+.tinchu p{
+    display: block;
+    color: #E8EAEA;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.blocks_content{
+    padding: 0;
+    background-color: #0A3643;
+}
+
+.line_blocks{
+    margin: 0 auto;
+    max-width: 1230px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.tin_25{
+    width: 100%;
+    min-width: 30px;
+    flex-basis: 25%;
+    padding: 0px 12px 0px 12px;
+    margin: 0 auto;
+    transform: translateY(-10%);
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.tin_25.show{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.box_img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box_text{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.h3{
+    display: block;
+    font-size: 1.3em;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.box_text p{
+    display: block;
+    text-align: center;
+}
+
+.map{
+    max-width: 1200px;
+    -webkit-transform:scale(1.3);
+    -webkit-transition-duration: 2s;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:  0 auto;
+    opacity: 0;
+}
+
+.map.show{
+    max-width: 1200px;
+    -webkit-transform:scale(1);
+    -webkit-transition-duration: 2s;
+    width: 100%;
+    opacity: 1;
+}
+
+@media (max-width: 834px) {
+    .khoitin {
+      flex-direction: column;
+      align-items: center;
+    }
+    .tinanh{
+        margin: 0 auto;
+        padding: 0 auto;
+        transition: 0.2s ease;
+    }
+    .tinchu{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 834px;
+        padding:15px 20px 30px 30px;
+        transform: translateX(0);
+        transition: 0.2s ease;
+    }
+    .tinchu.show{
+        transform: translate(0);
+    }
+    .tin_25{
+        flex-basis: 50%;
+        transition: 1s ease-out;
+    }
+  }

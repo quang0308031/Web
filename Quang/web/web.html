@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
     <script src="web.js"></script>
     <title>Document</title>
 </head>
@@ -16,7 +17,7 @@
         </div>
         <div class="row khoitin">
             <div class="tinanh">
-                <img src="a1.jpg" alt="">
+                <img src="img/a1.jpg" alt="">
             </div>
             <div class="tinchu">
                 <p>
@@ -27,10 +28,10 @@
             </div>
         </div>
 
-        <div class="row gap_element" style="margin-top: 59px;"></div>
+        <div class="row gap_element" style="margin-top: 53px;"></div>
         <div class="row khoitin">
             <div class="tinanh">
-                <img src="a2.jpg" alt="">
+                <img src="img/a2.jpg" alt="">
             </div>
             <div class="tinchu">
                 <p>
@@ -43,7 +44,7 @@
                 </p>
             </div>
         </div>
-        <div class="row gap_element" style="margin-top: 59px;"></div>
+        <div class="row gap_element" style="margin-top: 53px;"></div>
     </div>
     
 
@@ -54,7 +55,7 @@
         </div>
         <div class="row line_blocks">
             <div class="tin_25">
-                <img src="a3.jpg" alt="" class="box_img">
+                <img src="img/a3.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Quảng trường pháo hoa
@@ -65,7 +66,7 @@
                 </div>
             </div>
             <div class="tin_25">
-                <img src="a4.jpg" alt="" class="box_img">
+                <img src="img/a4.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Trung tâm thương mại
@@ -76,7 +77,7 @@
                 </div>
             </div>
             <div class="tin_25">
-                <img src="a5.jpg" alt="" class="box_img">
+                <img src="img/a5.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Bể bơi vô cực
@@ -87,7 +88,7 @@
                 </div>
             </div>
             <div class="tin_25">
-                <img src="a6.jpg" alt="" class="box_img">
+                <img src="img/a6.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Nhà trẻ tiêu chuẩn Singapore
@@ -102,7 +103,7 @@
 
         <div class="row line_blocks">
             <div class="tin_25">
-                <img src="a7.jpg" alt="" class="box_img">
+                <img src="img/a7.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Nhà hàng cao cấp
@@ -113,7 +114,7 @@
                 </div>
             </div>
             <div class="tin_25">
-                <img src="a8.jpg" alt="" class="box_img">
+                <img src="img/a8.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Sky bar & lounge
@@ -124,7 +125,7 @@
                 </div>
             </div>
             <div class="tin_25">
-                <img src="a10.jpg" alt="" class="box_img">
+                <img src="img/a10.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Gym & Spa Center
@@ -135,7 +136,7 @@
                 </div>
             </div>
             <div class="tin_25">
-                <img src="a9.jpg" alt="" class="box_img">
+                <img src="img/a9.jpg" alt="" class="box_img">
                 <div class="box_text">
                     <h3 class="yellow_text h3">
                         Bãi đỗ xe thông minh
@@ -154,13 +155,366 @@
             <h1><p class="black_text" style="font-weight: 600;">SƠ ĐỒ PHÂN TẦNG</h1>
         </div>
         <div class="row map">
-            <img src="a11.png" alt="">
-            <div class="row gap_element" style="padding-top: 40px;"></div>
+            <img src="img/a11.png" alt="" style="display: block; height: auto;">
         </div>
+
+        <div class="row gap_element" style="padding-top: 40px;"></div>
     </div>
 
     <div class="row list_block">
         <div class="row gap_element" style="border-top: 2px solid #F4F3F3;"></div>
+
+        <div class="row" id = 'row_text' style="height: 50px;">
+            <h1><p class="black_text" style="font-weight: 600;">SẢN PHẨM</h1>
+        </div>
+
+        <div class="buttom-list">
+            <button type="button" onclick="displayContent('display1', 'A')" class="buttom" style="margin-left: 0px;" id="A">Căn hộ loại A</button>
+            <button type="button" onclick="displayContent('display2', 'B')" class="buttom" id="B">Căn hộ loại B</button>
+            <button type="button" onclick="displayContent('display3', 'C')" class="buttom" id="C">Căn hộ loại C</button>
+            <button type="button" onclick="displayContent('display4', 'D')" class="buttom" id="D">Căn hộ loại D</button>
+            <button type="button" onclick="displayContent('display5', 'E')" class="buttom" id="E">Căn hộ loại E</button>
+        </div>
+
+        <div class="row khoitin1 display" id="display1" style="display: flex;">
+            <div class="tinanh1">
+                <img src="img/a11.jpg" alt="">
+            </div>
+            <div class="tinchu1">
+                <div class="row gap_element" style="padding-top: 30px;"></div>
+                <p>
+                    <strong>Diện tích căn hộ:</strong>
+                    80,3 – 84 m2
+                </p>
+
+                <p>
+                    <strong>Tầng:</strong>
+                    25 – 38
+                </p>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/livingroom-black-double-sofa.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng khách</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bed.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>2 phòng ngủ</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bathtub-with-opened-shower.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>2 phòng tắm</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/kitchen-furniture.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 nhà bếp</strong>
+                    </div>
+                </div>
+
+                <p style="display: block; padding-bottom: 30px;">
+                    <strong>Thiết kế căn hộ: </strong>
+                    Được xây dựng bằng vật liệu cao cấp, đồ nội thất sang trọng được thiết kế phong cách riêng, phòng tắm lát đá cẩm thạch lớn với tầm nhìn View trực diện Sông Hàn đẹp nhất. Hãy chiêm ngưỡng vẻ đẹp của Đà Nẵng thông qua các cửa sổ kính suốt từ trần đến sàn trải dài toàn bộ khu dân cư của bạn. Bốn góc độc đáo, bốn khung cảnh hùng vĩ độc đáo.
+                    <br>
+                    <strong>+ Tây Nam:</strong>
+                    Nhìn ra Sân bay & City View
+                    <br>
+                    <strong>+ Tây Bắc:</strong>
+                    Nhìn ra Vịnh Đà Nẵng, Bán Đảo Sơn Trà
+                    <br>
+                    <strong>+ Đông Bắc:</strong>
+                    Trực diện Sông Hàn vs Quảng trường pháo hoa Đà Nẵng
+                    <br>
+                    <strong>+ Đông Nam:</strong>
+                    View Cầu quay sông Hàn Đà Nẵng View
+                </p>
+            </div>
+        </div>
+
+        <div class="row khoitin1 display" id="display2">
+            <div class="tinanh1">
+                <img src="img/a12.jpg" alt="">
+            </div>
+            <div class="tinchu1">
+                <div class="row gap_element" style="padding-top: 30px;"></div>
+                <p>
+                    <strong>Diện tích căn hộ:</strong>
+                    74 – 76 m2
+                </p>
+
+                <p>
+                    <strong>Tầng:</strong>
+                    25 – 38
+                </p>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/livingroom-black-double-sofa.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng khách</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bed.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>2 phòng ngủ</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bathtub-with-opened-shower.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>2 phòng tắm</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/kitchen-furniture.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 nhà bếp</strong>
+                    </div>
+                </div>
+
+                <p style="display: block; padding-bottom: 30px;">
+                    <strong>Thiết kế căn hộ: </strong>
+                    đi thăm quan căn hộ mẫu sẽ giúp bạn đánh giá cao các chi tiết về thiết kế và cách bố trí tối ưu của loại căn hộ này. Thiết kế cửa trượt cho phép mở rộng tầm nhìn, tạo cho căn loại B cảm giác studio lớn mang tính biểu tượng của nó. Các căn Suite Junior có tầm nhìn ra phía Bắc của vịnh Đà Nẵng và bán đảo Sơn Trà hoặc quay mặt ra phía Nam nhìn ra sông Hàn xinh đẹp và các cây cầu nổi tiếng tại Đà Nẵng.
+                    <br>
+                    – Khu vực phòng khách rộng lớn tạo sự sang trọng của căn hộ
+                    <br>
+                    – Thiết kế cửa trượt cho tầm nhìn lớn và rộng rãi
+                    <br>
+                    – Có tầm nhìn đẹp thấy toàn cảnh vịnh Đà Nẵng và núi xem, hoặc sông Hàn
+                    <br>
+                    – Đây là căn hộ lớn thứ hai tại M Landmark
+                </p>
+            </div>
+        </div>
+
+        <div class="row khoitin1 display" id="display3">
+            <div class="tinanh1">
+                <img src="img/a13.jpg" alt="">
+            </div>
+            <div class="tinchu1">
+                <div class="row gap_element" style="padding-top: 30px;"></div>
+                <p>
+                    <strong>Diện tích căn hộ:</strong>
+                    41,5 m2
+                </p>
+
+                <p>
+                    <strong>Tầng:</strong>
+                    25 – 38
+                </p>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/livingroom-black-double-sofa.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng khách</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bed.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng ngủ</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bathtub-with-opened-shower.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng tắm</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/kitchen-furniture.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 nhà bếp</strong>
+                    </div>
+                </div>
+
+                <p style="display: block; padding-bottom: 30px;">
+                    <strong>Thiết kế căn hộ: </strong>
+                    Các căn hộ này quay mặt về hướng Nam có tầm nhìn ra cây Cầu Rồng Đà Nẵng, loại căn này có phòng ngủ giường đơn lớn. Thiết kế được lấy cảm hứng từ các phòng khách sạn 5 sao của M Landmark, có phòng tắm lớn và phòng khách kiểu studio chung với nhà bếp, cho phép chủ sở hữu căn hộ loại C sống trong một căn phòng khách sạn sang trọng với tầm nhìn tuyệt đẹp và cửa sổ thu nhỏ.
+                    <br>
+                    <br>
+                    – Không gian phòng khách thoải mái
+                    <br>
+                    – Phòng tắm rộng rãi với bồn tắm cỡ tiêu chuẩn và vòi sen riêng biệt
+                    <br>
+                    – Được thiết kế như một phòng khách sạn 5 sao, với nhà bếp
+                    <br>
+                    – Khung cảnh view sông Hàn xinh đẹp với cầu Rồng nổi tiếng tại Đà Nẵng
+                </p>
+            </div>
+        </div>
+
+        <div class="row khoitin1 display" id="display4">
+            <div class="tinanh1">
+                <img src="img/a14.jpg" alt="">
+            </div>
+            <div class="tinchu1">
+                <div class="row gap_element" style="padding-top: 30px;"></div>
+                <p>
+                    <strong>Diện tích căn hộ:</strong>
+                    43 – 45,5 m2
+                </p>
+
+                <p>
+                    <strong>Tầng:</strong>
+                    25 – 38
+                </p>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/livingroom-black-double-sofa.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng khách</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bed.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng ngủ</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bathtub-with-opened-shower.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng tắm</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/kitchen-furniture.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 nhà bếp</strong>
+                    </div>
+                </div>
+
+                <p style="display: block; padding-bottom: 30px;">
+                    <strong>Thiết kế căn hộ: </strong>
+                    Những dinh thự mini xinh đẹp hướng về phía Bắc này có tầm nhìn ra khu vực vịnh Đà Nẵng và bán Đảo Sơn Trà, nơi du khách có thể tận hưởng sự thoải mái của bồn tắm và ghế sofa qua khung cửa sổ. Thiết kế này được lấy cảm hứng từ các phòng nghỉ cao cấp 5 sao của M Landmark, có phòng tắm lớn tách biệt khu khô và khu ẩm và phòng khách kiểu studio liên thông với nhà bếp rộng rãi. Căn hộ loại D này cũng có tủ quần áo rộng rãi hơn và khu vực thay đồ riêng.
+                    <br>
+                    – Sofacó cửa sổ riêng cho không gian làm việc và đọc sách đẹp
+                    <br>
+                    – Phòng tắm rộng rãi với “khu vực ẩm ướt riêng” và tầm nhìn toàn cảnh
+                    <br>
+                    – Nhà bếp lớn hơn với chỗ ngồi ăn uống cho 6 người
+                    <br>
+                    – Tầm nhìn tuyệt đẹp ra vịnh Đà Nẵng và dãy núi hùng vĩ
+                </p>
+            </div>
+        </div>
+
+        <div class="row khoitin1 display" id="display5">
+            <div class="tinanh1">
+                <img src="img/a15.jpg" alt="">
+            </div>
+            <div class="tinchu1">
+                <div class="row gap_element" style="padding-top: 30px;"></div>
+                <p>
+                    <strong>Diện tích căn hộ:</strong>
+                    52,2 m2
+                </p>
+
+                <p>
+                    <strong>Tầng:</strong>
+                    25 – 38
+                </p>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/livingroom-black-double-sofa.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng khách</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bed.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng ngủ</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/bathtub-with-opened-shower.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 phòng tắm</strong>
+                    </div>
+                </div>
+
+                <div class="icon-inline">
+                    <div class="icon-inner">
+                        <img src="https://mauweb.monamedia.net/mlandmarkresidence/wp-content/uploads/2019/02/kitchen-furniture.png" alt="" width="32px" height="32px">
+                    </div>
+                    <div class="text-inner">
+                        <strong>1 nhà bếp</strong>
+                    </div>
+                </div>
+
+                <p style="display: block; padding-bottom: 30px;">
+                    <strong>Thiết kế căn hộ: </strong>
+                    Đây là căn 1 phòng ngủ lớn nhất của M Landmark cung cấp cho khách hành thích lựa chọn phòng khách rộng rãi để giải trí cho khách, tận hưởng thời gian thư giãn và làm việc và phòng tắm tách biệt “khu vực ẩm ướt” cho trải nghiệm tắm thoải mái. Căn hộ loại E có thiết kế rộng rãi với cửa sổ lớn cho tầm nhìn toàn cảnh ra khu vực vịnh hùng vĩ của thành phố Đà Nẵng.
+                    <br>
+                    – Thiết kế phòng rộng hơn cho phép khu vực phòng khách lớn hơn
+                    <br>
+                    – Tủ quần áo không cửa ngăn và phòng tắm lớn với ‘khu vực ẩm ướt’
+                    <br>
+                    – Dãy núi Sơn Trà Đà Nẵng và vịnh biển Mân Thái Đà Nẵng
+                    <br>
+                    – Dinh thự 1 phòng ngủ lớn nhất
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 </body>

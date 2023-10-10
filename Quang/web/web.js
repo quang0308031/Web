@@ -72,7 +72,6 @@ document.addEventListener('scroll', (event) => {
   });
 });
 
-
 function displayContent(id, buttom) {
   var i, contentBlocks, listButtom;
   contentBlocks = document.getElementsByClassName("display");

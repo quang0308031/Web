@@ -185,47 +185,30 @@ h1{
     justify-content: center;
 }
 
-.tinanh1{
-    display: block;
+.tinanh.alter{
     max-width: 615px;
     min-width: 267px;
-    width: 100%;
-    height: auto;
-    flex-basis: 50%;
-    flex-grow: 0;
-    transform: translateX(-15%);
-    transition: 1.5s ease;
-    opacity: 0;
 }
 
-.tinanh1.show{
-    transform: translateX(0);
-    opacity: 1;
+.tinanh.alter img{
+    border: none;
+    box-shadow: none;
 }
 
-.tinanh1 img{
-    width: 100%;
-    height: auto;
-}
-
-.tinchu1{
-    flex-grow: 2;
-    flex-basis: 50%;
-    max-width: 600px; 
-    height: auto;
-    opacity: 0;
-    width: 100%;
+.tinchu.alter{
     max-width: 615px;
     min-width: 267px;
-    transform: translateX(15%);
+    transform: translate(15%, 0);
     padding: 0px 15px 0px 15px;
     background-color: transparent;
-    transition: 1.5s ease;
 }
 
-.tinchu1.show{
+.tinchu.alter p{
+    color: #0a3643;
+}
+
+.tinchu.alter.show{
     transform: translateX(0);
-    opacity: 1;
 }
 
 .icon-inline{
@@ -302,10 +285,15 @@ h1{
 }
 
 @media (max-width: 534px) {
-    .tinanh1{
+    .tinanh.alter{
         flex-basis: 100%;
         margin: 0 auto;
         padding: 0 auto;
+        transition: 0.2s ease;
+    }
+    .tinchu.alter{
+        width: 100%;
+        transform: translateX(0);
         transition: 0.2s ease;
     }
 }

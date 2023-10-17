@@ -85,14 +85,12 @@ $(document).ready(function(){
   $(window).scroll(function(){
       if($(this).scrollTop()){
           $('header').addClass('sticky')
-          $(".gap").css("width", "160px")
           $(".gap").css("transition", "0.3s ease")
           $(".kk").css("width", "271px")
       }else{
           $('header').removeClass('sticky')
-          $(".gap").css("width", "125px")
           $(".gap").css("transition", "0.3s ease")
-          $(".kk").css("width", "160px")
+          $(".kk").css("width", "219px")
       }
   })
 })

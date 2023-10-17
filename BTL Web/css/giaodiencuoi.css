@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bander_cuoi{
+    width: 100%;
+    height: 497px;
+    background-color: #0A3643;
+}
+.giaodiencuoi{
+    width: 1515px;
+    height: 321px;
+    background-color: #0A3643;
+    margin-left: 162px;
+    margin-top: 96px;
+}
+.giaodiencuoi .row .col-sm-3 i{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 15px;
+    float:left;
+}
+.giaodiencuoi .row .col-sm-3 p{
+    margin-top: 15px;
+    font-size: 19px;
+    color: #a4a4a4;
+    margin-left: 25px;
+}
+.giaodiencuoi .row .col-sm-3 .canchinh p{
+    margin-top: 3px;
+}
+a{
+    color: #a4a4a4;
+}
+.giaodiencuoi .row .col-sm-3 a:hover{
+    color: #D89400;
+}
+.giaodiencuoi .row .col-sm-3 .icon_inner{
+    width: 25px;
+    height: 20px;
+    float: left;
+    margin-top: 20px;
+}
+.giaodiencuoi .row .col-sm-3 .menu p{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.giaodiencuoi .row .col-sm-3 .trai{
+    float: left;
+}
+.giaodiencuoi .row .col-sm-3 .trai a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: #a4a4a4;
+}
+.giaodiencuoi .row .col-sm-3 .trai a:hover{
+    color: #D89400;
+}
+.giaodiencuoi .row .col-sm-3 .phai a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    color: #a4a4a4;
+    margin-left: 50px;
+}
+.giaodiencuoi .row .col-sm-3 .phai a:hover{
+    color: #D89400;
+}
+.giaodiencuoi .row .col-sm-3 .tintuc p{
+    margin-left: -5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.giaodiencuoi .row .col-sm-3 .anh{
+    width: 65px;
+    height: 45px;
+    margin-top: 5px;
+    float: left;
+}
+.giaodiencuoi .row .col-sm-3 .khoi1_chu p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #a4a4a4;
+}
+.giaodiencuoi .row .col-sm-3 .khoi1_chu p:hover{
+    color: #D89400;
+}
+.giaodiencuoi .row .col-sm-3 .container-4 i{
+    color: black;
+}
+.banquyen{
+    width: 100%;
+    height: 48px;
+    background: black;
+}
+.banquyen p{
+    font-size: 20px;
+    color: #a4a4a4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

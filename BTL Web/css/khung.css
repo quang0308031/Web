@@ -1,0 +1,109 @@
+.khung{
+    width: 100%;
+    height: auto;
+    background: #F4F3F3;
+}
+.trong_khung_trong{
+    max-width: 1222px; 
+    height: auto; 
+    margin: 0 auto;
+    display: flex;
+    justify-self: center;
+}
+.khungbao{
+    flex-basis: 25%;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+.khungbao2{
+    flex-basis: 25%;
+    padding: 0;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.khung1{
+    display: block;
+    width: 286px;
+     height: 442px;
+     background:#FFFFFF;
+     border-radius: 5px;
+     border: 1px solid #484646;
+     box-shadow: 0px 0px 0px #949292;
+     float: left;
+}
+div .khung1:hover {
+    box-shadow: -10px 10px 10px #a4a4a4, 10px -0px 10px #a4a4a4;
+  }
+  div .khung2:hover {
+    box-shadow: -10px 10px 10px #a4a4a4, 10px 0px 10px #a4a4a4;
+  }
+
+.khung2{
+    display: block;
+    width: 286px;
+    height: 485px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    float: left;
+    border: 1px solid #DCDBDB;
+    box-shadow: 0px 0px 0px #949292;
+    border: 2px solid orange;
+}
+.khungchu{
+    border-radius:5px 5px 0px 0px;
+    width: 100%; 
+    height: 40px; 
+    background-color: #0A3643;
+}
+.khungchu p{
+    font-size: 18px;
+    padding-top: 5px;
+}
+.khungchu01{
+    border-radius:5px 5px 0px 0px;
+    width: 100%; 
+    height: 40px; 
+    background-color: #F59C00;
+}
+.khungchu01 p{
+    padding-top: 6px;
+}
+.khoangtrang{
+    width: 358px;
+    height: 1px;
+    background-color: aliceblue;
+}
+.khungchu3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.khungchu2{
+    width: 100%;
+    height: 88px;
+    font-size: 40px;
+    background-color: #7995A4;
+}
+.khungchu1{
+    width: 100%;
+    height: 88px;
+    font-size: 40px;
+    background-color: #F3C500;
+}
+.khungchu1 p{
+    padding-top: 14px;
+}
+.thongtin1{
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn{
+    width: 106px;
+    height: 40px;
+    border-radius: 10px/10px;
+    font-weight: 600;
+}
+
+
+

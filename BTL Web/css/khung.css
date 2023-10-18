@@ -3,6 +3,9 @@
     height: auto;
     background: #F4F3F3;
 }
+.trong_khung{
+    max-width: 100%;
+}
 .trong_khung_trong{
     max-width: 1222px; 
     height: auto; 
@@ -23,7 +26,7 @@
 }
 .khung1{
     display: block;
-    width: 286px;
+    max-width: 286px;
      height: 442px;
      background:#FFFFFF;
      border-radius: 5px;
@@ -40,7 +43,7 @@ div .khung1:hover {
 
 .khung2{
     display: block;
-    width: 286px;
+    max-width: 286px;
     height: 485px;
     border-radius: 5px;
     background-color: #FFFFFF;
